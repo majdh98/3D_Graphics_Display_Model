@@ -10,9 +10,9 @@ Both programs will display a 3D object defined by vertices and edges of the face
 In 3D_Graphiscs_Wireframe.py, faces are transparent to get a wireframe of the 3D object. While in 3D_Graphics_Colored_faces.py, visible faces are colored by a shade of blue. 
 
 cube.text is an example of an input file. The format of the comma-separated file is as follows:
-1- The first line contains two integers, first is the number of vertices of the 3D object, and the second is the number of faces of the 3D object.
-2- Vertices section: starting from the second line, each line will define one vertex of the 3D object. Each line contains an integer representing the vertex id, and 3 real numbers representing (x,y,z) coordinates of the vertex. Number of lines in this section is equal to the first integer in line 1. 
-3- Faces section: After the vertices section, each line defines the faces of the 3D object. Each line contains three integers each representing an id of a vertex. Each line defines a triangle that is a face of the object. 
+1. The first line contains two integers, first is the number of vertices of the 3D object, and the second is the number of faces of the 3D object.
+2. Vertices section: starting from the second line, each line will define one vertex of the 3D object. Each line contains an integer representing the vertex id, and 3 real numbers representing (x,y,z) coordinates of the vertex. Number of lines in this section is equal to the first integer in line 1. 
+3. Faces section: After the vertices section, each line defines the faces of the 3D object. Each line contains three integers each representing an id of a vertex. Each line defines a triangle that is a face of the object. 
 
 
 
